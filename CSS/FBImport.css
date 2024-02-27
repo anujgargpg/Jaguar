@@ -1,0 +1,51 @@
+﻿#divFBImportPopupFilters {
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #888;
+}
+
+    #divFBImportPopupFilters > div,
+    #divFBImportPopupFilters > select,
+    #divFBImportPopupFilters > input[type=text] {
+        display: inline;
+    }
+
+        #divFBImportPopupFilters > div.fb-filter-lbl {
+            color: #444;
+            font-weight: 600;
+            font-size: .85rem;
+            text-transform: uppercase;
+        }
+
+#txtImportfilter {
+    width: 350px;
+    display: inline;
+    margin-left: 50px;
+}
+
+table.tbl-FBImport th {
+    text-align: center;
+}
+
+    table.tbl-FBImport th:nth-child(1) {
+        width: 4%;
+    }
+
+    table.tbl-FBImport th:nth-child(2),
+    table.tbl-FBImport th:nth-child(3) {
+        width: 10%;
+    }
+
+    table.tbl-FBImport th:nth-child(4),
+    table.tbl-FBImport th:nth-child(5) {
+        width: 18%;
+    }
+
+
+table.tbl-FBImport tr td:nth-child(1) {
+    text-align: center;
+}
+
+table.tbl-FBImport tr td:nth-child(6) {
+    font-size: 0.7rem;
+}
